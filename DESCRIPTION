@@ -1,0 +1,16 @@
+Package: wetransfeR
+Type: Package
+Title: Send large files
+Version: 0.1.0
+Authors@R: person("Tim", "Faber", email = "faber@wetransfer.com",
+  role = c("aut", "cre"))
+Description: This package builds on the open API from WeTransfer.com and allows users
+    to send large files (< 2 Gb) from within R.
+URL: https://github.com/tfaber/wetransfeR
+BugReports: https://github.com/tfaber/wetransfeR/issues
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: httr, 
+	 jsonlite
+RoxygenNote: 6.0.1.9000
