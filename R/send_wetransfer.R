@@ -5,8 +5,6 @@
 #' @param name The name of the transfer
 #' @param description The description of the transfer (optional)
 #' @return The shortened url of the transfer
-#' @examples
-#' send_wetransfer("path/to/files","somekey","my_first_transfer","some nice files")
 #' @export send_wetransfer
 
 send_wetransfer <- function(files_dir, api_key, name, description) {

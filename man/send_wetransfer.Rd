@@ -21,6 +21,3 @@ The shortened url of the transfer
 \description{
 Creating a file transfer using the wetransfer open API
 }
-\examples{
-send_wetransfer("path/to/files","somekey","my_first_transfer","some nice files")
-}
