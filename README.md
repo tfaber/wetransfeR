@@ -18,7 +18,7 @@ The package leverages on `httr`, `jsonlite` package functions.
 
 ## Usage
 
-Using this package you can use the `send_wetransfer()` function by referencing reference a path (where your files are stored), your api key, a name and (optional) description of the transfer and a preferred method of evaluation like:
+Using this package you can use the `send_wetransfer()` function and include a reference to the path where your files are stored, your api key, a name and (optional) description of the transfer:
 
 ```
 send_wetransfer("path/to/files","somekey","my_first_transfer","some nice files")
