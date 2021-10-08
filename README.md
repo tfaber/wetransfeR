@@ -1,6 +1,6 @@
 [![Travis-CI Build Status](https://travis-ci.org/tfaber/wetransfeR.svg?branch=master)](https://travis-ci.org/tfaber/wetransfeR)
 
-## An R package to send (large) files
+## A R package to send (large) files
 
 This package builds on the wetransfer open API (https://developers.wetransfer.com/) which allows users to send large files (of any kind; up to 2GB per file). To be able to use the package you need to obtain a (free) api key at the forementioned link.
 
